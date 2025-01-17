@@ -2666,7 +2666,6 @@ Sie können einen Cluster mit einer Evaluierungs- oder erworbenen Lizenz für di
   <block id="dbca2124e685af6158dfb16fa4b1f333" category="inline-image-macro">Eingehende Schreibvorgänge auf die ONTAP Select VM</block>
   <block id="bb4535bc16c1e303453a76a7d6669910" category="paragraph"><block ref="bb4535bc16c1e303453a76a7d6669910" category="inline-image-macro-rx" type="image"></block></block>
   <block id="83aee6fb82bd87d789e0851835b555f8" category="admonition">Die NVRAM-Partition ist auf einer eigenen VMDK getrennt. Diese VMDK wird mithilfe des vNVME-Treibers verbunden, der in ESX Versionen 6.5 oder höher verfügbar ist. Diese Änderung ist für ONTAP Select Installationen mit Software-RAID am wichtigsten, die keine Vorteile aus dem RAID-Controller-Cache ziehen.</block>
-  <block id="d27fe30ba15a0ae7a0f394d03ac84245" category="summary">NetApp ONTAP Select ist eine softwaredefinierte Storage-Appliance, die Sie auf einer Reihe Standard-Hardwaresystemen mit VMware ESXi Hypervisor implementieren können. Mit dieser Lösung erhalten Sie die nötige Flexibilität zum Aufbau einer flexiblen und skalierbaren Private-Cloud-Infrastruktur. Diese Website enthält die Dokumentation für ONTAP Select 9.13.1, 9.12.1, 9.11.1, 9.10.1 und 9.9.1.</block>
   <block id="7436b418bed093768e360d32105591d2" category="doc">ONTAP Select-Dokumentation</block>
   <block id="a451fb0a81dc4fb9e6df8ff3f0cd6380" category="summary">Sie können ONTAP Select in einer Remote-Zweigstelle/in einer Zweigstelle implementieren. Bei der Planung einer ROBO-Implementierung müssen Sie die Konfiguration auswählen, die Ihre Ziele unterstützt.</block>
   <block id="e629f0dfc57ffa98b8aabae83c3e5032" category="doc">Implementierungen in Remote-Standorten und Zweigstellen</block>
@@ -2697,13 +2696,7 @@ Sie können einen Cluster mit einer Evaluierungs- oder erworbenen Lizenz für di
   <block id="f2f353da1661ba94dcbb3269b7980ee0" category="list-text">Klicken Sie auf *Neuer Lauf starten* und wählen Sie die Hosts und Netzwerke für das HA-Paar aus</block>
   <block id="0b30e81c88d5ec27b841310a84373595" category="paragraph">Sie können bei Bedarf weitere HA-Paare hinzufügen und konfigurieren.</block>
   <block id="5f81c29f30b61204b5999a7d3c42704f" category="list-text">Klicken Sie auf *Start*, um den Netzwerkverbindungstest zu starten.</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
-  <block id="7d6b000fe1d74e81dd9df936341bd14d" category="paragraph">Die Notice-Datei enthält Informationen über das Urheberrecht von Drittanbietern und die in der NetApp-Software verwendeten Lizenzen.</block>
   <block id="1ff0d4093fc891e95ebf937fc719f313" category="inline-link-macro">Hinweis zu ONTAP Select 9.11.1</block>
-  <block id="b21133b863e352c7e380ae8974198a75" category="list-text"><block ref="b21133b863e352c7e380ae8974198a75" category="inline-link-macro-rx"></block></block>
   <block id="5f21d6245c5bb0178e94ca31973b2629" category="summary">Beim Einsatz des Lizenzmodells der Kapazitäts-Pools anstelle des Lizenzmodells der Kapazitäts-Tiers ergeben sich verschiedene Vorteile.</block>
   <block id="f375253c446097df1911643c823bcebc" category="doc">Zusammenfassung der Vorteile</block>
   <block id="9d7eafb0b72f9b5f7663e196c8c405d4" category="section-title">Effizientere Nutzung der Storage-Kapazität</block>
@@ -3662,7 +3655,6 @@ Intercluster
   <block id="250f6d868aabeaced76663cb583769da" category="sidebar">Managen Sie Ihre Cluster</block>
   <block id="6a66d4f800a8576eee650d6dd676dd9d" category="sidebar">Verwenden Sie die REST-API</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Mehr Ressourcen</block>
-  <block id="2cf665df8bcce3d8608ac2923c3934b2" category="sidebar">ONTAP Select Ressourcen-Seite</block>
   <block id="fa0fa8503380df9df5c58ad57a531ff5" category="sidebar">ONTAP Select Produktbibliothek</block>
   <block id="c09b5be4c2da04f4040eef1878f258aa" category="sidebar">ONTAP 9-Dokumentation</block>
   <block id="5c7750df890d8a1ae46102a5c56d163d" category="sidebar">ONTAP Select Blogs</block>
@@ -3796,4 +3788,5 @@ Intercluster
   <block id="c3975d39937733b863b8e078a435a60a" category="paragraph">Durch den Kauf, die Generierung und das Hochladen einer aktualisierten Lizenzdatei erkennt Deploy erneuerte Lizenzen und Supportverträge.</block>
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">Wenn das Enddatum eines Capacity Tier-Supportvertrags verstrichen ist, kann der Node zwar weiter ausgeführt werden, doch können Sie ONTAP Updates nicht herunterladen und installieren oder sich telefonisch an den technischen Support von NetApp wenden, ohne den Supportvertrag zunächst auf den neuesten Stand zu bringen.</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">Wenn ein Kapazitäts-Pool-Abonnement ausfällt, warnt das System Sie zuerst, aber nach 30 Tagen, wenn das System heruntergefahren wird, wird es erst neu gestartet, wenn ein aktualisiertes Abonnement auf dem Bereitstellungs-Server installiert wird.</block>
+  <block id="83e5f3b857f0355cca25b7a7ce484485" category="paragraph"><block ref="83e5f3b857f0355cca25b7a7ce484485" category="inline-link-rx"></block></block>
 </blocks>
